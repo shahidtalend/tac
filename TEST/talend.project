@@ -465,4 +465,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_p52ZQoEkEemKp-I19kOSxA" login="security@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_H0GzcYFaEem5MqXgg78z2Q" login="shaikbi511@gmail.com" firstName="shahid" lastName="shaik" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_VsX0sIFjEem5MqXgg78z2Q" login="Trigger-Runner" type="DI"/>
 </xmi:XMI>
