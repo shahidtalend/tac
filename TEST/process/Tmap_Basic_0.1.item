@@ -232,7 +232,7 @@
         <mapperTableEntries name="deptname" expression="row1.deptname " type="id_String" nullable="true"/>
         <mapperTableEntries name="loc" expression="row1.loc " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="row1.empname .equals(&quot;mahesh&quot;)" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="empno" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="empname" type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" type="id_Integer" nullable="true"/>
