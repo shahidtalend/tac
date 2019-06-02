@@ -223,7 +223,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="row1.deptno ==10" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="row1.deptno ==10&amp;&amp;  row1.empname.equals(&quot;mahesh&quot;)" activateExpressionFilter="true">
         <mapperTableEntries name="empno" expression="row1.empno " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="empname" expression="row1.empname " type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" expression="row1.sal " type="id_Integer" nullable="true"/>
@@ -232,7 +232,7 @@
         <mapperTableEntries name="deptname" expression="row1.deptname " type="id_String" nullable="true"/>
         <mapperTableEntries name="loc" expression="row1.loc " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="row1.empname .equals&quot;mahesh&quot;" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="empno" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="empname" type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" type="id_Integer" nullable="true"/>
