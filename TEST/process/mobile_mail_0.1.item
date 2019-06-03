@@ -258,7 +258,7 @@
         <mapperTableEntries name="mailid" expression="row1.mailid " type="id_String" nullable="true"/>
         <mapperTableEntries name="mobilevalidflag" expression="row1.mobilevalidflag " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="StringHandling.COUNT(row1.mobilenum ,12)" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="StringHandling.LEN(row1.mobilenum )==12" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="eno" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
         <mapperTableEntries name="mobilenum" type="id_String" nullable="true"/>
