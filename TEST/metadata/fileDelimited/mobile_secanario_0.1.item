@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_IBkKoYXOEemExJHENQqNiA" name="mobile_secanario" dataPackage="_IBkKooXOEemExJHENQqNiA" Server="Localhost 127.0.0.1" FilePath="C:/Users/shaik/OneDrive/Desktop/Talend Input data/mobile_yes_no.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IBkKooXOEemExJHENQqNiA" name="default" dataManager="_IBkKoYXOEemExJHENQqNiA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IBkKo4XOEemExJHENQqNiA" id="_96WDAIXNEemExJHENQqNiA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IBkKpIXOEemExJHENQqNiA" label="eno" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IBkKpYXOEemExJHENQqNiA" label="ename" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IBkKpoXOEemExJHENQqNiA" label="mobilenum" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IBkKp4XOEemExJHENQqNiA" label="mailid" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IBkKqIXOEemExJHENQqNiA" label="mobilevalidflag" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
